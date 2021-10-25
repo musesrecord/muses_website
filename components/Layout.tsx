@@ -111,7 +111,7 @@ function Footer(): ReactElement {
       <p>
         This website is{" "}
         <a
-          href="https://github.com/lootproject/website"
+          href="https://github.com/musesrecord/muses_website"
           target="_blank"
           rel="noopener noreferrer"
         >
