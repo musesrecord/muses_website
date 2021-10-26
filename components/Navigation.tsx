@@ -29,7 +29,7 @@ export  const Navigation = ()=> {
                     <Nav.Link target="_blank" href="https://twitter.com/muses____">
                     <TwitterLogo />
                     </Nav.Link>
-                    <Nav.Link target="_blank" href="https://discord.gg/FqKQwvF4">
+                    <Nav.Link target="_blank" href="https://discord.gg/uXtJKHzqHY">
                     <DiscordLogo />
                     </Nav.Link>
                     <Nav.Link target="_blank" href="https://opensea.io/collection/muses-music">
