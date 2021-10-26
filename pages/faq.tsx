@@ -33,7 +33,7 @@ export default function FAQ(): ReactElement {
         <div className={styles.faq__item}>
           <h3>What can I build with Mu::ses?</h3>
           <p>
-            Anything you want. Be creative! Join the Discord community to discuss and collaborate with artists.
+            Anything you want. Be creative! Join the <a target="_blank" href="https://discord.gg/uXtJKHzqHY"> Discord </a> community to discuss and collaborate with artists.
           </p>
         </div>
 
@@ -45,13 +45,21 @@ export default function FAQ(): ReactElement {
           </p>
         </div>
 
+        {/* How to download a Muse as a MIDI file? */}
+        <div className={styles.faq__item}>
+          <h3> How to download a Muse as a MIDI file? </h3>
+          <p>
+            <a target="_blank" href="https://colab.research.google.com/drive/1mAeuoHXgZZ6CdY7rEBIOAmkZIjdjDkSP?usp=sharing"> Click here </a>, and follow the instructions. 
+          </p>
+        </div>
+
         {/* Why Mu::ses is an on-chain project? */}
         <div className={styles.faq__item}>
           <h3> Why Mu::ses is an on-chain project? </h3>
           <p>
             NFT file data is typically stored on centralized or decentralized servers. However, if digital art metadata is stored off-chain, you can potentially end up with a smart contract that points to a broken link. 
             <br/><br/>
-            On the other hand, some projects, such as <a href="https://www.larvalabs.com/autoglyphs">Autoglyphs </a> or <a href="https://www.lootproject.com/">Loot </a>, focus on different approaches and are determined to be 100% on-chain, i.e., the metadata is written into the smart contract.
+            On the other hand, some projects, such as <a target="_blank" href="https://www.larvalabs.com/autoglyphs">Autoglyphs </a> or <a target="_blank" href="https://www.lootproject.com/">Loot </a>, focus on different approaches and are determined to be 100% on-chain, i.e., the metadata is written into the smart contract.
             <br/><br/>
             Mu::ses project wants to present an approach on how to store music on-chain.
           </p>

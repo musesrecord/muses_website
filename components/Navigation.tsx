@@ -19,7 +19,7 @@ export  const Navigation = ()=> {
                 <Nav className="me-auto">
                 <Nav.Link className={styles.header__links} target="_blank"
                     href="https://colab.research.google.com/drive/1mAeuoHXgZZ6CdY7rEBIOAmkZIjdjDkSP?usp=sharing">
-                    Download in MIDI</Nav.Link>
+                    Download a Muse in MIDI</Nav.Link>
                 <Nav.Link className={styles.header__links} href="/faq">FAQ</Nav.Link>
                 <Nav.Link className={styles.header__links} target="_blank"
                     href="https://polygonscan.com/address/0xc04c14981019045f6e316d21092a1785036af0bd#code">
