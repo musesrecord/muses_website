@@ -67,7 +67,7 @@ export default function Home(): ReactElement {
               <div className={styles.home__preview__muse}>
                 <span>#0208</span>
                 <ReactAudioPlayer
-                    preload="metadata"
+                    preload="none"
                     src="https://gateway.pinata.cloud/ipfs/Qmcw6KCjWacarAudrZtrmb4cs2PgK31XuGhkY2f2HPrFMi"
                     controls
                   />
@@ -78,7 +78,7 @@ export default function Home(): ReactElement {
               <div className={styles.home__preview__muse}>
                 <span>#0216</span>
                 <ReactAudioPlayer
-                    preload="metadata"
+                    preload="none"
                     src="https://gateway.pinata.cloud/ipfs/QmbSUcDFrkVrYQQoPeEZ3BX4LAXJLexTjo3R9vNUJkyFVq"
                     controls
                   />
@@ -89,7 +89,7 @@ export default function Home(): ReactElement {
               <div className={styles.home__preview__muse}>
                 <span>#0181</span>
                 <ReactAudioPlayer
-                    preload="metadata"
+                    preload="none"
                     src="https://gateway.pinata.cloud/ipfs/Qmb2FT4bSeEVZHgQATP6y5PnEUpxrffRTyGQE5cHfKEevN"
                     controls
                   />
